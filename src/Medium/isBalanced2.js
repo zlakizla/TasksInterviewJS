@@ -13,13 +13,6 @@ console.log(isBalanced2('foo { (bar [baz] } )'));
 function isBalanced2(arrya) {
     let tmp = [];
     let result;
-    // фигурная 
-    let fr = 0;
-    // квадратная 
-    let kv = 0;
-    //круглая 
-    let kr = 0;
-
     let ms = [];
 
     [...arrya].map(function (item) {
